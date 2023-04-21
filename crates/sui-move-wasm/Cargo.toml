@@ -1,0 +1,22 @@
+[package]
+name = "sui-move-wasm"
+version.workspace = true
+authors = ["Move Studio"]
+license = "Apache-2.0"
+publish = false
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wasm-bindgen = "0.2"
+anyhow = { version = "1.0.64", features = ["backtrace"] }
+move-package.workspace = true
+move-core-types.workspace = true
+
+
+sui-move = { path = "../sui-move" }
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
