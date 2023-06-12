@@ -74,7 +74,7 @@
     "eslint-config-prettier": "^8.7.0",
     "eslint-config-react-app": "^7.0.1",
     "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.8.7",
+    "prettier": "^2.8.8",
     "size-limit": "^8.2.4",
     "tmp": "^0.2.1",
     "ts-node": "^10.9.1",
